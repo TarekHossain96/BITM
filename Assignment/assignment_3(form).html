@@ -3,6 +3,11 @@
 
 <head>
     <title>Registration for SEIP Project</title>
+    <style>
+    span{
+    	color: red;
+    }
+   </style>
 </head>
 
 <body>
@@ -13,7 +18,7 @@
             <tr height="20">
                 <td width="800" colspan="4">
                     <table width="800" height="20">
-                <td width="150">First Preference*:</td>
+                <td width="150">First Preference<span>*</span>:</td>
                 <td width="">
                     <select name="fst-choice" style="width:65%; height: 30px;">
                         <option value="">Select Course</option>
@@ -38,7 +43,7 @@
     <tr height="20">
         <td width="800" colspan="4">
             <table width="800" height="20">
-        <td width="150">First Preference*:</td>
+        <td width="150">First Preference<span>*</span>:</td>
         <td width="">
             <select name="second-choice" style="width:65%; height: 30px;">
                 <option value="">Select Course</option>
@@ -63,7 +68,7 @@
     <tr height="20">
         <td width="800" colspan="4">
             <table width="800" height="20">
-        <td width="150">First Preference*:</td>
+        <td width="150">First Preference<span>*</span>:</td>
         <td width="">
             <select name="third-choice" style="width:65%; height: 30px;">
                 <option value="">Select Course</option>
@@ -89,23 +94,23 @@
         <td width="800" colspan="4">
             <table width="800" height="20">
         <td width="800">
-            Name:*<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 55%;height: 25px;" />
+            Name:<span>*</span><br>
+            <input type="text" name="name" id="name" value="" style="width: 55%;height: 25px;" />
         </td>
         </table>
         </td>
     </tr>
     <tr height="20" width="800">
         <td width="266">
-            Father Name*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 250px;height: 25px;" />
+            Father Name<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 250px;height: 25px;" />
         </td>
         <td width="266">
-            Mother Name*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 250px;height: 25px;" />
+            Mother Name<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 250px;height: 25px;" />
         </td>
         <td>
-            Gender*:<br>
+            Gender<span>*</span>:<br>
             <select name="gender" style="width:100%; height: 25px;">
                 <option value="">Select Gender</option>
                 <option value="male">Male</option>
@@ -117,20 +122,20 @@
         <td width="800" colspan="4">
             <table width="800" height="20">
         <td width="800">
-            National ID*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 250px;height: 25px;" />
+            National ID<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 250px;height: 25px;" />
         </td>
         </table>
         </td>
     </tr>
     <tr height="20" width="800">
         <td width="266">
-            Date of Birth*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 250px;height: 25px;" />
+            Date of Birth<span>*</span>:<br>
+            <input type="date" name="name" id="name" value="" style="width: 250px;height: 25px;" />
         </td>
         <td>
-            Religion*:<br>
-            <select name="religion" style="width:75%; height: 25px;">
+            Religion<span>*</span>:<br>
+            <select name="religion" style="width:250px; height: 25px;">
                 <option value="">Select Religion</option>
                 <option value="Islam">Islam</option>
                 <option value="Hinduism">Hinduism</option>
@@ -139,7 +144,7 @@
             </select>
         </td>
         <td>
-            Ethnic Group*:<br>
+            Ethnic Group<span>*</span>:<br>
             <select name="ethnic_group" style="width:100%; height: 25px;">
                 <option value="" selected="selected">Select Ethnic Group</option>
                 <option value="Armenian community of Dhaka">Armenian community of Dhaka</option>
@@ -199,12 +204,12 @@
         <td width="800" colspan="4">
             <table width="800" height="20">
         <td>
-            Mobile*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 90%;height: 25px;" />
+            Mobile<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 90%;height: 25px;" />
         </td>
         <td>
-            Email*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
+            Email<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
         </td>
         </table>
         </td>
@@ -218,7 +223,7 @@
         </td>
         <td>
             Monthly Income:<br>
-            <input type="text" class="input-text" name="mincome" value="" / style="width: 100%;height: 25px;">
+            <input type="text" name="mincome" value="" / style="width: 100%;height: 25px;">
         </td>
         </table>
         </td>
@@ -236,8 +241,8 @@
         <td width="800" colspan="4">
             <table width="800" height="20">
         <td width="800">
-            Address*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
+            Address<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
         </td>
         </table>
         </td>
@@ -246,19 +251,19 @@
         <td width="800" colspan="4">
             <table width="800" height="20">
         <td>
-            City*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 85%;height: 25px;" />
+            City<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 85%;height: 25px;" />
         </td>
         <td>
-            Post Code*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
+            Post Code<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
         </td>
         </table>
         </td>
     </tr>
     <tr height="20">
         <td width="266">
-            Division*:<br>
+            Division<span>*</span>:<br>
             <select name="cars" style="width:85%; height: 25px;">
                 <option value="" selected="selected">Select Division</option>
                 <option value="5">Barisal</option>
@@ -271,8 +276,8 @@
             </select>
         </td>
         <td>
-            District*:<br>
-            <select name="cars" style="width:85%; height: 25px;">
+            District<span>*</span>:<br>
+            <select name="cars" style="width:90%; height: 25px;">
                 <option value="" selected="selected">Select District</option>
                 <option value="5">Barguna</option>
                 <option value="2">Barisal</option>
@@ -284,7 +289,7 @@
             </select>
         </td>
         <td>
-            Sub-District*:<br>
+            Sub-District<span>*</span>:<br>
             <select name="cars" style="width:100%; height: 25px;">
                 <option value="" selected="selected">Select Sub-District</option>
                 <option value="5">Barisal</option>
@@ -310,12 +315,12 @@
         <td width="800" colspan="4">
             <table width="800" height="20">
         <td>
-            Level of Education*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 85%;height: 25px;" />
+            Level of Education<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 85%;height: 25px;" />
         </td>
         <td>
-            Institute*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
+            Institute<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
         </td>
         </table>
         </td>
@@ -324,12 +329,12 @@
         <td width="800" colspan="4">
             <table width="800" height="20">
         <td>
-            Subject*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 85%;height: 25px;" />
+            Subject<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 85%;height: 25px;" />
         </td>
         <td>
-            Year*:<br>
-            <input type="text" class="input-text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
+            Year<span>*</span>:<br>
+            <input type="text" name="name" id="name" value="" style="width: 100%;height: 25px;" />
         </td>
         </table>
         </td>
@@ -350,6 +355,16 @@
         <td width="800">
             <input type="file" name="photo" /><br>
             <span style="color: #888889">Image size should be 300x300 (Max 100KB) in JPG Format </span>
+        </td>
+        </table>
+        </td>
+    </tr>
+    <tr height="20">
+        <td width="800" colspan="4">
+         <table width="800" height="20">
+        <td width="800" align="center">
+            <input type="reset" value="Reset" style="font-size: 16px; font-weight: bold;">
+            <input type="submit" value="Save" style="background: #B4CE45; border-color:#B4CE45;font-size: 16px; font-weight: bold;">
         </td>
         </table>
         </td>
