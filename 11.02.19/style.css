@@ -14,7 +14,12 @@
 [class*='col-']{
 	float: left;
 	box-sizing: border-box;
+<<<<<<< HEAD
 	border: 1px solid black;}
+=======
+	border: 1px solid black;
+}
+>>>>>>> 9e23758856f4e1e6e99cea610a1b3d22cf063c26
 .header-height{height: 200px;}
 .header-top-height{height: 30px;}
 .menu-height{height: 50px;}
